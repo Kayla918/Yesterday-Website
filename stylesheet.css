@@ -1,0 +1,165 @@
+html {
+  background: url("https://images.iphonephotographyschool.com/17960/1120/iPhone-Sunset-Photos.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  }
+form {border: #0000ffff;}
+
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.div-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-nav li{
+  list-style-type: none;
+  padding: 1%;
+}
+
+.div-signup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.div-signup {
+  display: flex;
+  justify-content: center;
+
+}
+.div-home{
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.div-about{
+  height: 350px;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+}
+.shrink {
+  width: 50%;
+}
+.wrapper {
+  background-color: lightgrey;
+  width: 550px;
+  border: 50px;
+  padding: 25px;
+  margin: 20px;
+}
+.center {
+  float: center;
+  width: 396px;
+  height: 300px;
+  /* background: url("https://www.wisbar.org/SiteCollectionImages/WisconsinLawyer/2016/09/wl-2016-09-dementia-estate-tree-leaves-fall-elderly-mental-health-550x300.jpg") no-repeat center center fixed; */
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  /* The image used */
+  /* background-image: url("https://images.iphonephotographyschool.com/17960/1120/iPhone-Sunset-Photos.jpg"); */
+
+
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.wrapper {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  width:70%;
+
+
+}
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+.div-link li{
+  list-style-type: none;
+}
